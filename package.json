@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "ls  && cd /tmp/codon/tmp/buildpacks  && ls",
+    "heroku-prebuild": "cd /tmp/codon/tmp/buildpacks2cd3309e34d34b154aac9f665b0eb2d2e86d8b8e/lib  && ls",
     "start": "node index.js",
     "test": "node test.js"
   },
